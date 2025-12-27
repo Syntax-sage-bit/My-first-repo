@@ -184,7 +184,6 @@ def small():
  	  print("for 12th question input: str")
  	  print("for 13th question input: palindrome")
  	  print("for 14th question input: digit")
- 	  
  	  print("---------------------------------------------------------------------------")
  	  func=input("enter your function")
  	  if(func == "calc"):
@@ -370,7 +369,6 @@ def hard():
         print("you: sesseor")
       elif(user == 2):
         print("you: paper")
-      
       if(com == 0):
         print("com: stone")
       elif(com == 1):
@@ -421,7 +419,6 @@ def main():
     print("1.small programs")
     print("2.medium programs")
     print("3.hard question")
-  
     print("---------------------------------------------------------------------------")
     a=(input("enter a number"))
     if a.lower() == "done":
